@@ -3,6 +3,8 @@ Rails.application.routes.draw do
   # authenicates both registered and new users
 
   get '/api/user/:id', to: 'users#show' # specific user info
+  post '/api/users/new', to: 'users#new' # existing user
+  post '/api/users', to: 'users#create' # create a new user
 
   get '/api/recipes', to: 'recipes#index' # all recipe data
   get '/api/recipe/:id', to: 'recipes#show' # specific recipe
