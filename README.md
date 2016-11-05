@@ -1,6 +1,8 @@
 # Recipe Box API
 
-Heroku link:
+Heroku link: https://recipe-box-api2.herokuapp.com/
+
+Unfortunately, simply visiting this link will produce a HTML page with code status 500.  Please use the following Angular app (place link here) to sign up for an API authentication token!
 
 ## Getting Started
 
